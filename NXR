@@ -1,0 +1,4 @@
+<script src="https://agi-dev-platform-web.cdn.bcebos.com/ai_apaas/embed/output/embedFullSDK.js?responseExpires=0&t=1763738702803"></script>
+<script>
+   new EmbedWebSDK({appId: 'cc9fcfe0-96e9-430d-82fc-c447e5cc2f0c', code: 'embedFRDhlTTBJCrnwdNsDNME', renderConfig: {width: '100%', height: '100%'}});
+</script>
