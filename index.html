@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My GitHub Page with AI Agent</title>
+    <!-- 设置响应式视口 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <h1>我的GitHub页面</h1>
+    <p>下方是集成的智能体：</p>
+
+    <!-- 智能体容器 -->
+    <div id="ai-agent-container" style="height: 600px; border: 1px solid #ddd;"></div>
+
+    <!-- 嵌入百度智能体SDK -->
+    <script src="https://agi-dev-platform-web.cdn.bcebos.com/ai_apaas/embed/output/embedLiteSDK.js?responseExpires=0&t=1763738702803"></script>
+    <script>
+        new EmbedLiteSDK({
+            appId: 'cc9fcfe0-96e9-430d-82fc-c447e5cc2f0c',
+            code: 'embedFRDhlTTBJCrnwdNsDNME',
+            container: document.getElementById('ai-agent-container')  // 指定容器
+        });
+    </script>
+</body>
+</html>
